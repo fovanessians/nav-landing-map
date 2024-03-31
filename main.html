@@ -1,0 +1,96 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+  
+    
+
+      <section class="heading">
+    
+        <header id="header">
+           
+    <nav class="navbar" id="nav-bar">
+    <!-- LOGO -->
+    <div class="logo">Menu</div>
+
+    <!-- NAVIGATION MENU -->
+    <ul class="nav-links">
+
+      <!-- USING CHECKBOX HACK -->
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+      <!-- NAVIGATION MENUS -->
+      <div class="menu">
+
+        <li><a href="/">Home</a></li>
+        <li><a href="/">About</a></li>
+
+        <li class="services">
+          <a href="/">Services</a>
+
+          <!-- DROPDOWN MENU -->
+          <ul class="dropdown">
+            <li><a href="#header" class="nav-link">Header </a></li>
+            <li><a href="#video" class="nav-link">Video</a></li>
+            <li><a href="#footer" class="nav-link">footer 3</a></li>
+          
+          </ul>
+
+        </li>
+
+        <li><a href="/">Pricing</a></li>
+        <li><a href="/">Contact</a></li>
+      </div>
+    </ul>
+  </nav>
+
+          <div>
+          <img src="https://cdn.freecodecamp.org/platform/universal/fcc_meta_1920X1080-indigo.png"
+            alt="freecodecamp logo"
+            loading="lazy"
+            class="hero-img"
+            id = "header-img"
+          />
+          </div>
+          
+        </header>
+        <main>
+        <br>
+        <div>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+              <label for="form-email">email:</label><br>
+              <input type="email" id="email" name="email" placeholder="name@name.com"><br><br>
+              <input type="submit" value="Submit" id="submit">
+            </form>
+            </div>
+
+                 <div class="video-container" id="vid-cont">
+  <video id="video">
+    <source src="sample_video.mkv" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<iframe
+  id="inlineFrameExample"
+  title="Inline Frame Example"
+  width="300"
+  height="200"
+  src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
+</iframe>
+    </main>
+
+
+    <footer id="footer">
+  <p>Author: Frank Ovanessians</p>
+  <p><a href="mailto:fovanessians@gmail.com">fovanessians@gmail.com</a></p>
+</footer>
+
+  </body>
+
+
+</html>
